@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: whitesmoke;
+}
+
+nav {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.buscador {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+h1 {
+    font-size: 250%;
+}
+
+.leaf {
+    height: 45px;
+    background-color: aqua;
+}
+
+.lupa {
+    height: 25px;
+    position: relative;
+    right: 80px;
+}
+
+.cart {
+    height: 25px;
+    position: relative;
+    margin-right: 20px;
+}
+
+.box {
+    width: 500px;
+    height: 40px;
+    border-radius: 150px;
+    font-size: 100%;
+    border-color: gainsboro;
+}
+.posiciones {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;    
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.titulo2 {
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    border-top: 4px solid black;
+    text-align: center;
+    font-size: 160%
+}
+
+.row {
+    display: flex;
+}
+
+.p1 {
+    flex: 1;
+    background-color: aqua;
+    text-align: center;
+    font-size: 260%;
+    padding: 20px;
+    color: white;
+
+}
+
+.right {
+    position: relative;
+    height: 40px;
+    left: 120px;
+    bottom: 40px;
+}
+
+
+.aloe {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.p2 {
+    margin-left: 10px;
+    background-color: aqua;
+    height: 100px;
+    text-align:center;
+    font-size: 200%;
+   
+}
+
+.text {
+    padding: 20px;
+    color: white;
+}
+
+.right2 {
+    position: relative;
+    height: 40px;
+    left: 120px;
+    bottom: 60px;
+}
+
+footer {
+    width: 1000px;
+    margin: 0 auto;
+    background-color:skyblue;
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.image {
+    height: 80px;
+    border-radius: 150px;
+    margin-top: 20px;
+}
+
+
+.cookie {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: lightgrey;
+    border: 2px solid black;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text {
+
+    color: black;
+}
